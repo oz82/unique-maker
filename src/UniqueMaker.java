@@ -8,17 +8,17 @@ public class UniqueMaker {
     public static void main(String[] args) {
         LinkedHashMap<String, Integer> map = new LinkedHashMap();
         ArrayList<String> list = new ArrayList();
-        String inputFile = args[0];
-        String outputFile = args[1];
-        String mode = args[2];
-        String delim = "";
-        int np = 0;
         int numArg = args.length;
         if (numArg != 3 && numArg != 4) {
             System.out.println("Example Usage--------> java -jar UniqueMaker <input_file> <output_file> <mode> (separator)");
             System.out.println("Output Mode----------> 1: A unique set of entries, 2: Frequency set, 3: Frequency list");
             System.out.println("Separator (optional)-> t: Tab, c: Comma, s: Semicolon, p: Space");
         }
+        String inputFile = args[0];
+        String outputFile = args[1];
+        String mode = args[2];
+        String delim = "";
+        int np = 0;
         if (numArg == 4) {
             delim = args[3];
             switch (delim) {
