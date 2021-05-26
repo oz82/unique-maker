@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UniqueMaker2.iml" filepath="$PROJECT_DIR$/UniqueMaker2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unique-maker.iml" filepath="$PROJECT_DIR$/unique-maker.iml" />
     </modules>
   </component>
 </project>
